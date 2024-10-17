@@ -19,7 +19,7 @@ class PbxClient(Client):
     def __init__(self) -> None:
         self.users: list[Client] = []
         self.bot: Client = Client(
-            name="PBXBOT 2.0",
+            name="♥️sᴜʜᴀɴ ᴜsᴇʀʙᴏᴛ♥️",
             api_id=Config.API_ID,
             api_hash=Config.API_HASH,
             bot_token=Config.BOT_TOKEN,
@@ -48,11 +48,11 @@ class PbxClient(Client):
                         f"Client #{i+1}: '{me.first_name}' is not in Logger Group! Check and add manually for proper functioning."
                     )
                 try:
-                    await client.join_chat("https://t.me/ll_THE_BAD_BOT_ll")
+                    await client.join_chat("https://t.me/vanshi_support")
                 except:
                     pass
                 try:
-                    await client.join_chat("https://t.me/PBX_NETWORK")
+                    await client.join_chat("https://t.me/vanshika_support")
                 except:
                     pass
             except Exception as e:
@@ -111,16 +111,16 @@ class PbxClient(Client):
         await self.bot.send_animation(
                         Config.LOGGER_ID,
             "https://telegra.ph/file/48a4bb97b1b6e64184223.mp4",
-            f"**{Symbols.check_mark} ᴘʙx 2.0 ɪs.ɴᴏᴡ ᴏɴʟɪɴᴇ!**\n\n"
+            f"**{Symbols.check_mark} sᴜʜᴀɴ ᴜsᴇʀʙᴏᴛ ɪs.ɴᴏᴡ ᴏɴʟɪɴᴇ!**\n\n"
             f"**{Symbols.triangle_right}  ᴄʟɪᴇɴᴛs ➠ ** `{len(self.users)}`\n"
             f"**{Symbols.triangle_right} ᴘʟᴜɢɪɴs ➠ ** `{len(Config.CMD_MENU)}`\n"
             f"**{Symbols.triangle_right} ᴄᴏᴍᴍᴀɴᴅs ➠ ** `{len(Config.CMD_INFO)}`\n"
             f"**{Symbols.triangle_right} sᴛᴀɴ ᴜsᴇʀs ➠ ** `{len(Config.STAN_USERS)}`\n"
             f"**{Symbols.triangle_right} ᴀᴜᴛʜ ᴜsᴇʀs ➠ ** `{len(Config.AUTH_USERS)}`\n\n"
-            f"**{Symbols.triangle_right} ᴘʙx 2.0 ᴠᴇʀsɪᴏɴ ➠ ** `{version['Pbxbot']}`\n"
+            f"**{Symbols.triangle_right} sᴜʜᴀɴ ᴠᴇʀsɪᴏɴ ➠ ** `{version['Pbxbot']}`\n"
             f"**{Symbols.triangle_right}  ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ ➠ ** `{version['pyrogram']}`\n"
             f"**{Symbols.triangle_right}  ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➠ ** `{version['python']}`\n\n"
-            f"**</> @ll_THE_BAD_BOT_ll**",
+            f"**</> @vanshi_support**",
             parse_mode=ParseMode.MARKDOWN,
             disable_notification=True,
             reply_markup=InlineKeyboardMarkup(
@@ -130,10 +130,10 @@ class PbxClient(Client):
                         InlineKeyboardButton("💖 ʀᴇᴘᴏ", url="https://github.com/Badhacker98/PBX_2.0/fork"),
                     ],
                     [
-                        InlineKeyboardButton("⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸", url="https://t.me/ll_BAD_MUNDA_ll"),
+                        InlineKeyboardButton("🥀sᴜʜᴀɴ🥀="https://t.me/IF_SAIM"),
                     ],
                     [
-                    InlineKeyboardButton("🦋 𝐏ʙx 𝐁ᴏᴛ 𝐒ᴜᴘᴘᴏʀᴛ ❤️", url="https://t.me/ll_THE_BAD_BOT_ll"),
+                    InlineKeyboardButton("🦋 sᴜʜᴀɴ ʙᴏᴛ sᴜᴘᴘᴏʀᴛ ❤️", url="https://t.me/vanshi_support"),
                     ],
                 ]
             ),
