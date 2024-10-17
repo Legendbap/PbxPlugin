@@ -108,7 +108,7 @@ async def hearts(client: Client, message: Message):
     await asyncio.sleep(0.5)
     await message.edit("❤️ I Love You")
     await asyncio.sleep(3)
-    await message.edit("❤️ I Love You <3")
+    await message.edit("❤️ I Love You <3 @IF_SAIM")
 
 @on_message("bad", allow_stan=True)
 async def hearts(client: Client, message: Message):
@@ -120,7 +120,7 @@ async def hearts(client: Client, message: Message):
     await asyncio.sleep(0.5)
     await message.edit("💞 ᴍʏ ᴄᴜᴛᴇ ᴏᴡɴᴇʀ")
     await asyncio.sleep(3)
-    await message.edit("[⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸](https://t.me/ll_BAD_MUNDA_ll)")
+    await message.edit("[⎯꯭̽🇨🇦꯭꯭ sᴀɪᴍ🌸](https://t.me/IF_SAIM)")
 
 @on_message("rain", allow_stan=True)
 async def hearts(client: Client, message: Message):
@@ -139,7 +139,7 @@ async def hearts(client: Client, message: Message):
    await asyncio.sleep(3)
    await message.edit("🌨🌩🌦🌥⛅🌤") 
     
-@on_message("shizu", allow_stan=True)
+@on_message("saba", allow_stan=True)
 async def hearts(client: Client, message: Message):
    await phase1(message)
    await asyncio.sleep(SLEEP * 3)
@@ -153,7 +153,7 @@ async def hearts(client: Client, message: Message):
    await message.edit("🫣ᴛᴜ ᴍᴇʀɪ ᴀ ᴊᴀᴀɴ ᴍᴇᴛɪ 🤗")
    await message.edit("💋ʙᴀʙʏ ɪ ᴋɪss ʏᴏᴜ 🥰")
    await asyncio.sleep(3)
-   await message.edit("🙈sʜɪᴢᴜ ᴊᴀᴀɴ ɪ ʟᴏᴠᴇ ʏᴏᴜ ɪ ᴍɪss ʏᴏᴜ ɪ ᴋɪss ʏᴏᴜ💫🥰❤️") 
+   await message.edit("🙈saba ᴊᴀᴀɴ ɪ ʟᴏᴠᴇ ʏᴏᴜ ɪ ᴍɪss ʏᴏᴜ ɪ ᴋɪss ʏᴏᴜ💫🥰❤️") 
 
 
 @on_message("loveu", allow_stan=True)
@@ -807,7 +807,7 @@ async def helicopter(client: Client, message: Message):
         "╬═╬ \n"
         "╬═╬ \n"
         "╬═╬ \n"
-        "╬═╬ Hello Everything :) \n"
+        "╬═╬ @IF_SAIM :) \n"
         "╬═╬☻/ \n"
         "╬═╬/▌ \n"
         "╬═╬/ \\ \n",
@@ -869,7 +869,7 @@ async def thumb(client: Client, message: Message):
         "██████▄▄█‡‡‡‡‡‡████████▄\n"
         "▓▓▓▓▓▓█‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡█\n"
         "▓▓▓▓▓▓█‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡█\n"
-        "▓▓▓▓▓▓█‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡█\n"
+        "▓▓▓▓▓▓█‡‡‡‡‡‡‡‡@IF_SAIM‡‡‡‡‡‡‡█\n"
         "▓▓▓▓▓▓█‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡█\n"
         "▓▓▓▓▓▓█‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡█\n"
         "▓▓▓▓▓▓█████‡‡‡‡‡‡‡‡‡‡‡‡██\n"
