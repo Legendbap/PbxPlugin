@@ -435,7 +435,7 @@ RAID = [
 ]
 
 
-GRP = "@vanshi_suppory|@ll_BAD_ABOUT_ll|@ll_BAD_MUNDA_WORLD_ll"
+GRP = "@vanshi_support|@ll_BAD_ABOUT_ll|@ll_BAD_MUNDA_WORLD_ll"
 
 GROUP = [-1002056907061]
 
