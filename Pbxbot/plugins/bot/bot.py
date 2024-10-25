@@ -9,8 +9,18 @@ from Pbxbot.functions.tools import restart
 from ..btnsG import gen_bot_help_buttons, start_button
 from . import HELP_MSG, START_MSG, BotHelp, Config, Pbxbot
 
+@Pbxbot.bot.on_message(filters.regex("start"))
+async def go_home(_, message: Message):
+    await message.reply_text(
+        "** ᴛʏᴘᴇ  /session ✓ ❤️**",
+    )
+    await message.reply_text(
+        CLONE_MSG.format(message.from_user.mention),
+        disable_web_page_preview=Fasle,
+    )
+    
 
-@Pbxbot.bot.on_message(filters.command("start") & Config.AUTH_USERS)
+@Pbxbot.bot.on_message(filters.command("startt") & Config.AUTH_USERS)
 async def start_pm(_, message: Message):
     btns = start_button()
 
@@ -32,7 +42,7 @@ async def help_pm(_, message: Message):
     )
 
 
-@Pbxbot.bot.on_message(filters.command("sᴛᴀʀᴛᴛ") & Config.AUTH_USERS)
+@Pbxbot.bot.on_message(filters.command("rt") & Config.AUTH_USERS)
 async def restart_clients(_, message: Message):
     await message.reply_text("Restarted Bot Successfully ✅")
     try:
