@@ -12,7 +12,7 @@ from Pbxbot.bad.bad import edit_or_reply, get_text
 from Pbxbot.bad.constants import MEMES
 from . import *
 
-DEFAULTUSER = "Bad"
+DEFAULTUSER = "suhan"
 
 
 NOBLE = [
@@ -110,7 +110,7 @@ async def hearts(client: Client, message: Message):
     await asyncio.sleep(3)
     await message.edit("❤️ I Love You <3 @IF_SAIM")
 
-@on_message("bad", allow_stan=True)
+@on_message("suhan", allow_stan=True)
 async def hearts(client: Client, message: Message):
     await phase1(message)
     await asyncio.sleep(SLEEP * 3)
