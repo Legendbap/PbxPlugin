@@ -6,8 +6,8 @@ from . import Pbxbot
 #--------------------------
 
 MUST_JOIN = "vanshi_support"
-MUST_JOIN2 = "HEROKUBIN_01"
-MUST_JOIN3 = "ll_THE_BAD_BOT_ll"
+MUST_JOIN2 = "vanshika_support"
+MUST_JOIN3 = "haters_hell_1"
 MUST_JOIN4 = "IF_SAIM"
 
 #------------------------
@@ -33,13 +33,13 @@ async def must_join_channel(app: Client, msg: Message):
                                 InlineKeyboardButton("๏Jᴏɪɴ¹๏", url=f"https://t.me/vanshi_support"),
                             ],
                             [
-                            InlineKeyboardButton("๏Jᴏɪɴ²๏", url=f"https://t.me/ll_BAD_MUNDA_WORLD_ll"),
+                            InlineKeyboardButton("๏Jᴏɪɴ²๏", url=f"https://t.me/vanshika_support"),
                             ],
                             [
                             InlineKeyboardButton("๏Jᴏɪɴ³๏", url=link),
                             ],
                             [
-                            InlineKeyboardButton("๏Jᴏɪɴ⁴๏", url=f"https://t.me/HEROKUBIN_01")
+                            InlineKeyboardButton("๏Jᴏɪɴ⁴๏", url=f"https://t.me/haters_hell_1")
                             ]
                         ]
                     )
