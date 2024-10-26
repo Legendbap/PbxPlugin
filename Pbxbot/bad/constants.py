@@ -1,5 +1,5 @@
 class First:
-    ALIVE = "`ᴘʙx 2.0 ɪꜱ ᴀʟɪᴠᴇ`"
+    ALIVE = "`sᴜʜᴀɴ ᴜsᴇʀʙᴏᴛ ɪꜱ ᴀʟɪᴠᴇ`"
     REPO = """
 ʀᴇᴘᴏ [ᴄɪᴄᴋ ʜᴇᴀʀᴇ](https://github.com/Badhacker98/PBX_2.0/fork)
 
