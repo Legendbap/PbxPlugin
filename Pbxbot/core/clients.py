@@ -130,7 +130,7 @@ class PbxClient(Client):
                         InlineKeyboardButton("💖 ʀᴇᴘᴏ", url="https://github.com/Badhacker98/PBX_2.0/fork"),
                     ],
                     [
-                        InlineKeyboardButton("🥀sᴜʜᴀɴ🥀"="https://t.me/IF_SAIM"),
+                        InlineKeyboardButton("🥀sᴜʜᴀɴ🥀", url="https://t.me/IF_SAIM"),
                     ],
                     [
                     InlineKeyboardButton("🦋 sᴜʜᴀɴ ʙᴏᴛ sᴜᴘᴘᴏʀᴛ ❤️", url="https://t.me/vanshi_support"),
